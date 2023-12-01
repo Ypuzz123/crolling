@@ -1,0 +1,15 @@
+가상환경 생성 : python -m venv [venvname]
+가상환경 실행 : venv/Scripts/activate
+가상환경 종료 : deactivate
+장고 설치 : pip install django
+장고 삭제 : pip uninstall django
+특정 버전 설치 : pip install django==버전(ex:3.0.1)
+서버 실행 : python manage.py runserver
+서버 종료 : ctrl + c
+프로젝트 생성 : django-admin startproject [project name]    |    . = 현재 폴더
+프로젝트 이동 : cd first_project
+앱 생성 : python manage.py startapp 이름
+라이브러리 버전 확인 : pip list
+DB 테이블 정리해서 보여줌 : python manage.py inspectdb
+DB 업데이트1 : python manage.py makemigrations
+DB 업데이트2 : python manage.py migrate 

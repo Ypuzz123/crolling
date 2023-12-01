@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>검색할 키워드</title>
+</head>
+<body>
+    <h1>검색할 키워드</h1>
+
+    <form method="post" action="{% url 'saveword' %}">
+        {% csrf_token %}
+        <label for="item_word">단어 입력:</label>
+        <input type="text" id="item_word" name="item_word">
+        <br><br>
+        <input type="submit" value="확인">
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <table class = "table-contents" style="padding:10px">
+    <tr>
+        <tr>제목</tr>
+        <tr>제목</tr>
+    </tr>
+    {% for weblist in weblists%}
+        <tr>
+            <td>{{weblist.sitenumber}}</tr>
+            <td>{{weblist.sitename}}</tr>
+            <td>{{weblist.siteurl}}</tr>
+        </tr>
+    {% endfor %}
+</table> -->
