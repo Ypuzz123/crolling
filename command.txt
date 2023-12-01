@@ -13,3 +13,4 @@
 DB 테이블 정리해서 보여줌 : python manage.py inspectdb
 DB 업데이트1 : python manage.py makemigrations
 DB 업데이트2 : python manage.py migrate 
+github 갱신 : git push origin main
